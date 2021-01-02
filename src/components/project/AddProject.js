@@ -64,7 +64,7 @@ export default class AddProject extends Component {
                                                onChange={this.onChange}
                                                />
                                     </div>
-                                    <div class="form-group">
+                                    <div className="form-group">
                                         <input type="text" 
                                                className="form-control form-control-lg" 
                                                placeholder="Unique Project ID"
