@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+[![CircleCI](https://circleci.com/gh/andersondebrito/agile-int-ppm-tool.svg?style=svg)](https://github.com/andersondebrito/agile-int-ppm-tool)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Personal Project Management Tool
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/LICENSE)
 
-## Available Scripts
+# About
 
-In the project directory, you can run:
+https://project-management-tool-pers.herokuapp.com/
 
-### `yarn start`
+Personal Project Management tool is a full stack web application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The application build tools to support the software development process – Tools that you, as a developer, would use.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Layout web
+![Web 1](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/start_page.png?raw=true)
 
-### `yarn test`
+![Web 2](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/sign_up.png?raw=true)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Web 3](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/login_page.png?raw=true)
 
-### `yarn build`
+![Web 4](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/dashboard.png?raw=true)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Web 5](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/create_project_form.png?raw=true)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Web 6](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/creating_project.png?raw=true)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Web 7](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/dashboard_with_project.png?raw=true)
 
-### `yarn eject`
+![Web 8](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/project_dashboard.png?raw=true)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Web 9](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/add_project_task.png?raw=true)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Web 10](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/project_dashboard_with_task.png?raw=true)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Web 11](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/project_dashboard_with_tasks.png?raw=true)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Web 12](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/update_project_task_status.png?raw=true)
 
-## Learn More
+![Web 13](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/project_dashboard_with_task_updated.png?raw=true)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Web 14](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/project_dashboard_with_task_updated_status.png?raw=true)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Web 15](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/project_dashboard_with_task_updated_fase.png?raw=true)
 
-### Code Splitting
+![Web 16](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/project_dashboard_with_projects.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Tecnologias utilizadas
+## Back end
+- Java
+- Spring Boot
+- JPA / Hibernate
+- Maven
 
-### Analyzing the Bundle Size
+## Front end
+- HTML / CSS / JS / TypeScript
+- ReactJS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Implantação em produção
+- Back End, Front End: Heroku
+- Banco de dados: Postgresql
 
-### Making a Progressive Web App
+# Como executar o projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Back end
+Pré-requisitos: Java 8
 
-### Advanced Configuration
+```bash
+# clonar repositório
+git clone https://github.com/andersondebrito/agile-int-ppm-tool.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# entrar na pasta do projeto back end
+cd agile-int-ppm-tool
 
-### Deployment
+# executar o projeto
+./mvnw spring-boot:run
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Front end web
+Pré-requisitos: npm / yarn
 
-### `yarn build` fails to minify
+```bash
+# clonar repositório
+git clone https://github.com/andersondebrito/agile-int-ppm-tool-front-end.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# entrar na pasta do projeto front end web
+cd agile-int-ppm-tool-front-end
+
+# instalar dependências
+yarn install
+
+# executar o projeto
+yarn start
+```
+
+# Autor
+
+Anderson de Brito Oliveira
+
+https://www.linkedin.com/in/anderson-brito-oliveira/
+
